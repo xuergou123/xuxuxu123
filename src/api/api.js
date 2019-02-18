@@ -9,7 +9,7 @@ import {post,fetch,patch,put} from './http'
 
 //export const requestLogin = params => { return axios.post(`${base}/login`, params).then(res => res.data); };
 
-export const requestLogin = params => { debugger;return this.$fetch(`/login`, params).then(res => res.data); };
+export const requestLogin = params => { debugger;return this.$fetch(`/dasa/login`, params).then(res => res.data); };
 
 
 export const getUserList = params => { return axios.get(`${base}/user/list`, { params: params }); };
